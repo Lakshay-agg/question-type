@@ -1,0 +1,188 @@
+/* Login.css */
+
+.login-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100vh !important;
+  background-color: #f6f8fa !important;
+}
+
+.login-illustration {
+  flex: 1 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-right: 100px !important; /* adding right margin */
+}
+
+.login-form {
+  width: 400px !important; /* adjusted the width */
+  padding: 20px !important;
+  box-shadow: 0 3px 3px -2px rgba(0,0,0,.2), 0 3px 4px 0 rgba(0,0,0,.14), 0 1px 8px 0 rgba(0,0,0,.12) !important;
+  background-color: #fff !important;
+  margin-right: 100px !important; /* adding right margin to the login card */
+}
+
+.login-illustration img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+
+.login-form h1 {
+  text-align: left !important;
+  margin-bottom: 20px !important;
+  margin-left: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 20px !important;
+    padding: 0 20px !important;  /* Adding horizontal padding */
+}
+
+.form-group label {
+  display: block !important;
+  text-align: left !important;
+  margin-bottom: 5px !important;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100% !important;
+  padding: 10px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px !important;
+  font-size: 16px !important;
+}
+
+.form-group input[type="checkbox"] {
+  vertical-align: middle !important;
+  margin-top: -2px !important;
+}
+
+.form-group label[for="rememberMe"] {
+  display: inline !important;
+  vertical-align: middle !important;
+  margin-left: 5px !important;
+}
+
+button {
+      margin-left: 20px;
+    background-color: #4404BF !important;
+    color: #fff !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    display: block !important;
+    width: 95% ;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+button:hover {
+  background-color: #3303A1 !important;
+}
+
+.error {
+  color: red !important;
+  margin-bottom: 10px !important;
+}
+
+.login-form h1, 
+.login-form label, 
+.login-form .form-group {
+    text-align: left !important;
+}
+
+/* Checkbox and its label */
+.login-form #rememberMe + label {
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.login-form #rememberMe {
+    margin-right: 5px !important;
+    vertical-align: middle !important;
+}
+
+
+
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.navigation-list {
+    width: 100%;
+    background-color: #2c3e50; /* Darker background for the navbar */
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0; /* Added padding for better look */
+}
+
+.navigation-list li {
+    margin: 0 30px;
+    cursor: pointer;
+    color: #ecf0f1; /* Light text color */
+    font-weight: 600; /* Bolder text */
+    transition: color 0.3s ease; /* Transition effect */
+}
+
+.navigation-list li:hover {
+    color: #3498db; /* Change color on hover */
+}
+
+.project-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Rounded corners */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transition effect */
+}
+
+.project-card:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    transform: translateY(-10px); /* Slight lift on hover */
+}
+
+.project-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+.project-card p {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
